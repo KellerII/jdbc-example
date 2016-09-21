@@ -1,0 +1,27 @@
+<dataSource name="Sqlite (Xerial) - contactmgr.db">
+  <database-model serializer="dbm" rdbms="SQLITE" format-version="2.6">
+    <schema id="1">
+      <visible>1</visible>
+    </schema>
+    <table id="2" parent="1" name="contacts" />
+    <column id="3" parent="2" name="id">
+      <data-type>INTEGER(0,-1)|4</data-type>
+    </column>
+    <column id="4" parent="2" name="firstname">
+      <data-type>STRING(0,-1)|12</data-type>
+    </column>
+    <column id="5" parent="2" name="lastname">
+      <data-type>STRING(0,-1)|12</data-type>
+    </column>
+    <column id="6" parent="2" name="email">
+      <data-type>STRING(0,-1)|12</data-type>
+    </column>
+    <column id="7" parent="2" name="phone">
+      <data-type>INT(10)(0,-1)|4</data-type>
+    </column>
+    <key id="8" parent="2">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>

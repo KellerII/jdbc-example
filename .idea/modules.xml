@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernate-basics.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernate-basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernate-basics_main.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernate-basics_main.iml" group="hibernate-basics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hibernate-basics_test.iml" filepath="$PROJECT_DIR$/.idea/modules/hibernate-basics_test.iml" group="hibernate-basics" />
+    </modules>
+  </component>
+</project>
